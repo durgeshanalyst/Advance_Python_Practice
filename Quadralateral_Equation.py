@@ -7,7 +7,5 @@
 # Print the values of x and y. 
 
 def find_roots(entries):
-    arr= list(map(int(input().split())))
+    arr = list(map(int, input('Enter number').split(',')))
     print(arr)
-
-find_roots(list(map(int(input().split()))))      
